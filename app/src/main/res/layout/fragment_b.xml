@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pappayaed.com.fragmentusingbacknavigation.twofraginoneactivitycommunication.FragmentB">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Fragment B" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:text="TextView" />
+
+</RelativeLayout>
